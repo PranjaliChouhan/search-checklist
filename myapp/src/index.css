@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono&display=swap");
+.header {
+    overflow: hidden;
+    background-color: #070b0a;
+    padding: 20px 10px;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: rgba(198, 210, 209, 0.952);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  .header a:hover {
+    background-color: #082828;
+    color: rgb(70, 99, 99);
+  }
+  
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  
+  .header-right {
+    float: right;
+  }
+  
+
+  .header h1{
+    color: aliceblue;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+
+
+
+
+
+.searchbar{
+    width:50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.searchbar input{
+    margin:30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family:"Roboto", sans-serif; 
+}
+
+
+
+
+
+
+
